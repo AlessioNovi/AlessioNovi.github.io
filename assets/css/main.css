@@ -2223,6 +2223,7 @@ input[type="radio"] + label:before {
   display: block;
   margin: 0 0 2em 0;
   width: 100%;
+  border: 1px solid #a2a2a2;
 }
 
 .image.fit img {
@@ -2308,7 +2309,7 @@ ul.icons li .icon:before {
   display: none;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 980px) {
   .mobile-icons {
     margin-top: 16px;
     display: block;
@@ -2469,6 +2470,12 @@ ul.actions.fit.stacked {
     margin-left: -0.5em;
   }
 
+  #bottom-actions {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
   #bottom-actions {
     display: none;
   }
